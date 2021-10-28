@@ -78,10 +78,13 @@ body {
 }
 
 .about__me {
-	background-image: url(./img/backgraunt__about.png);
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	width: 1920px;
+
+	background-image: url(./img/backgraunt__about.png);
+	
+	
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	margin-bottom: 150px;
 	/* background-color: #d4d4d4; */
@@ -149,7 +152,6 @@ body {
 	max-width: 700px;
 	margin: 200px 100px;
 	border-radius: 5px;
-	z-index: 1;
 }
 
 .short__biography {
