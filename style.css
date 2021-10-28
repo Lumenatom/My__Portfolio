@@ -201,6 +201,9 @@ h2 {
 	padding: 50px;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .hard__skills img {
@@ -213,15 +216,17 @@ h2 {
 .hard__skills h3 {
 	color: black;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-bottom: 20px;
+	padding-left: 50px;
 }
 
 .hard__skills p{
 	color: black;
 	font-size: 25px;
 	font-weight: 400;
+	
 }
 
 .quotes {
@@ -252,17 +257,23 @@ h2 {
 }
 .projects__item__link {
 	display: flex;
-	color: #000000;
+	margin-left: auto;
 	text-decoration: none;
-	font-size: 25px;
-	font-weight: bold;
+	font-size: 30px;
+	font-weight: 600;
 	border: #000000 solid 0.5px;
-	padding: 9px 15px 5px 20px;
-	margin-top: 30px;
-	max-width: 200px;
-	border-radius: 5px;
+	padding: 10px;
+	color: #000000;
+	background-color: rgb(194, 194, 194);
+	border-radius: 5px;	
+	margin-top: 50px;
 	
+}
 
+.projects__item__link:hover {
+	color: white;
+	background-color: red;
+	transition: linear 0.1s;
 }
 
 .projects h3 {
@@ -280,7 +291,8 @@ h2 {
 }
 
 .projects img {
-	max-width: 50%;
+	width: 350px;
+	height: 200px;
 	border: #000000 solid 0.5px;
 	margin-bottom: 20px;
 	border-radius: 5px;
@@ -293,6 +305,7 @@ h2 {
 	font-size: 25px;
 	font-weight: 400;
 	margin-left: 20px;
+	line-height: 1.5em;
 }
 
 .soft__skkils {
