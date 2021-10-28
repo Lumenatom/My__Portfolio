@@ -117,10 +117,7 @@ body {
 
 }
 
-.button__item {
-	/* display: flex; */
-	/* justify-content: space-between; */
-}
+
 .about__me button {
 	padding: 20px;
 	color: #ffffff;
@@ -145,14 +142,13 @@ body {
 	margin-right: 100px;
 }
 
-.btn__2 {
-	/* margin-right: 100px; */
-}
+
 
 .person {
-	max-width: 700px;
+	max-width: 600px;
 	margin: 200px 100px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
+	border-radius: 25px;
 }
 
 .short__biography {
