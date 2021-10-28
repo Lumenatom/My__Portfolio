@@ -118,8 +118,8 @@ body {
 }
 
 .button__item {
-	display: flex;
-	justify-content: space-between;
+	/* display: flex; */
+	/* justify-content: space-between; */
 }
 .about__me button {
 	padding: 20px;
@@ -142,10 +142,11 @@ body {
 
 .btn__1 {
 	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .btn__2 {
-	margin-right: 100px;
+	/* margin-right: 100px; */
 }
 
 .person {
