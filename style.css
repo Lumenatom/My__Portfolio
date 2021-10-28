@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-	width: 100%;
+	max-width: 100%;
     /* padding: 0 15px;
     margin: 0 auto; */
     
@@ -80,7 +80,7 @@ body {
 .about__me {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
+	max-width: 100%;
 
 	background-image: url(./img/backgraunt__about.png);
 	
