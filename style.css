@@ -80,7 +80,7 @@ body {
 .about__me {
 	display: flex;
 	justify-content: space-between;
-	width: 1920px;
+	width: 100%;
 
 	background-image: url(./img/backgraunt__about.png);
 	
