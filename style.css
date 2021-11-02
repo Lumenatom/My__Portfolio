@@ -394,7 +394,7 @@ footer p {
 
 
 @media screen and (max-width: 768px) {
-	.container {
+	/* .container {
 		width: 767px;
 	}
 	.hard__skills_item {
@@ -421,6 +421,39 @@ footer p {
 	.about__me button {
 		padding: 2px;
 		font-size: 10px;
+	} */
+
+	.container {
+		width: 767px;
+	}
+
+	.nav {
+		width: 767px;
+	}
+	.about__me {
+		width: 767px;
+	}
+	.short__biography {
+		width: 640px;
+		margin-left: 10px;
+	}
+	.hard__skills {
+		width: 767px;
+		margin: 0;
+		justify-content: left;
+	}
+	.hard__skills_item {
+		max-width: 40%;
+		margin: 10px;
+		
+	}
+
+	.projects {
+		width: 767px;
+	}
+	.projects__item {
+		max-width: 100%;
+		margin: 0;
 	}
 }
 
